@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CRIANDO FORMULARIO</title>
+</head>
+<body>
+
+    <form action="http://localhost/forms/actionGET.php">   
+
+    <fieldset>
+          <legend>Dados pessoais:</legend>
+
+          <input type="text" name="Nome" placeholder="Seu nome"><br>
+          <input type="text" name="Sobrenome" placeholder="Seu sobrenome"><br>
+          Data de Nascimento:<input type="date" name="birthday"><br>
+       
+          <input type="Radio" name="gender" value="M">Masculino<br>
+          <input type="Radio" name="gender" value="F">Feminino<br>
+          <input type="Radio" name="gender" value="NF" checked>Nâo informar<br>
+    </fieldset>
+
+    <fieldset>
+
+          <legend>Horário da palestra</legend> 
+         <select>
+      	  <option value="M">Manhã</option>
+      	  <option value="T">Tarde</option>
+      	  <option value="N">Noite</option>
+
+         </select>
+    </fieldset><br><br>
+
+    <input type="submit" value="Cadastrar"><br>
+
+
+     </form>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
